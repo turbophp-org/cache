@@ -1,0 +1,36 @@
+{
+  "name": "turbophp-org/cache",
+  "description": "TurboPHP 框架缓存管理库，提供统一缓存接口，支持多驱动和灵活过期策略。",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "turbophp",
+    "framework",
+    "cache",
+    "storage",
+    "driver"
+  ],
+  "homepage": "https://turbophp.org",
+  "support": {
+    "issues": "https://github.com/turbophp-org/cache/issues",
+    "source": "https://github.com/turbophp-org/cache",
+    "docs": "https://turbophp.org/docs",
+    "pull-request": "https://github.com/turbophp-org/cache/pulls"
+  },
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "TurboPHP\\Cache\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-main": "1.0-dev"
+    }
+  }
+}
